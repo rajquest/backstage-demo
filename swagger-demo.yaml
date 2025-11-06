@@ -1,12 +1,7 @@
 apiVersion: backstage.io/v1alpha1
-kind: API
+kind: Location
 metadata:
-  name: weather-forecast-api
-  description: Weather Forecast API (.NET 8 Swagger)
+  name: local-api-location
 spec:
-  type: openapi
-  lifecycle: development
-  owner: demo-team
-  definition:
-    $text: https://configapi.dev.cordellacare.com/swagger/v1/swagger.json
-
+  targets:
+    - ./weather-api.yaml
