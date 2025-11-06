@@ -4,4 +4,4 @@ metadata:
   name: local-api-location
 spec:
   targets:
-    - ./weather-api.yaml
+    - ./apis
