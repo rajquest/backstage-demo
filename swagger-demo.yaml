@@ -8,4 +8,5 @@ spec:
   lifecycle: development
   owner: demo-team
   definition:
-    $text: http://localhost:7228/swagger/v1/swagger.json
+    $text: https://configapi.dev.cordellacare.com/swagger/v1/swagger.json
+
