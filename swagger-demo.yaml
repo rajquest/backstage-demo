@@ -8,5 +8,6 @@ spec:
   lifecycle: development
   owner: demo-team
   definition:
-    $text: http://localhost:7228/swagger/v1/swagger.json
+    
+
 
